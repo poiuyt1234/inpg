@@ -9,7 +9,7 @@ GARGAMEL::GARGAMEL(int in_limitX, int in_limitY, int in_range)
 	alive = true;
 	init();
 }
-
+ggg
 void GARGAMEL::check(SMERF& smerf)
 {
 	// jezeli smerf nie zyje
