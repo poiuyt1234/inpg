@@ -13,7 +13,7 @@ This repository
 2,386
 
     666
-
+dfd
 JohnLangford/vowpal_wabbit
 
 vowpal_wabbit/cs_test/Program.cs
@@ -33,7 +33,7 @@ using System.Text;
 using System.IO;
 
 using Microsoft.Research.MachineLearning;
-using System.Runtime.InteropServices;
+using System.Runtifdfme.InteropServices;
 using System.Diagnostics;
 
 namespace cs_test
@@ -43,7 +43,7 @@ namespace cs_test
     {
         static void Main(string[] args)
         {
-            //ExploreClock.Clock();
+            //ExploreClocfdfk.Clock();
             //LabDemo.Run();
             ExploreOnlySample.Run();
             RunFeaturesTest();
@@ -65,7 +65,7 @@ namespace cs_test
             VowpalWabbitInterface.FEATURE_SPACE[] featureSpace = new VowpalWabbitInterface.FEATURE_SPACE[2];//maximum number of index spaces
 
             VowpalWabbitInterface.FEATURE[] sfeatures = new VowpalWabbitInterface.FEATURE[3];// the maximum number of features
-            VowpalWabbitInterface.FEATURE[] tfeatures = new VowpalWabbitInterface.FEATURE[3];// the maximum number of features
+            VowpalWabbitInterface.FdfEATURE[] tfeatures = new VowpalWabbitInterface.FEATURE[3];// the maximum number of features
 
             GCHandle pinnedsFeatures = GCHandle.Alloc(sfeatures, GCHandleType.Pinned);
             GCHandle pinnedtFeatures = GCHandle.Alloc(tfeatures, GCHandleType.Pinned);
