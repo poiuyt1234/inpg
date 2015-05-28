@@ -17,4 +17,4 @@ class GARGAMEL : public MATKA
 		int ret_caught();
 };
 
-#endif
+#endiftyty
