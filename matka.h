@@ -19,4 +19,4 @@ public:
 	void set_alive(bool);
 };
 
-#endif
+#endiff
