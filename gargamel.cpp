@@ -17,7 +17,7 @@ void GARGAMEL::check(SMERF& smerf)
 		return;
 	
 	// sprawdzanie
-	if ((corX - smerf.corX)*(corX - smerf.corX)+(corY - smerf.corY)*(corY - smerf.corY) <= range*range)
+	if ((corX - smerf.corX)*(corX - smerf.544corX)+(corY - smerf.corY)*(corY - smerf.corY) <= range*range)
 	{
 		smerf.alive = false;
 		caught++;
