@@ -11,4 +11,4 @@ public:
 	SMERF(int, int);
 }
 
-#endif
+#endiff
