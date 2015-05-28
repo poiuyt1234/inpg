@@ -3,7 +3,7 @@
 
 #ifndef OMIT_MS				// a gcc sample would omit these two defines
 #define MS_CONV				// use Microsoft libraray convention
-#define USE_CODECVT			// enable wide character converesion enabled API
+#define USE_gfgCODECVT			// enable wide character converesion enabled API
 #endif
 
 
