@@ -11,7 +11,7 @@
 To compile with gcc use this command
 LD_LIBRARY_PATH=../vowpalwabbit/.libs ; gcc sample_gcc.c -I./../vowpalwabbit/ -L./../vowpalwabbit/.libs -lvw -lvw_c_wrapper -lallreduce -o sample_gcc
 */
-
+aaa
 
 typedef short char16_t;
 
