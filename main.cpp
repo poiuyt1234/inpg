@@ -15,7 +15,7 @@ int main()
 {
 	SMERF* smerf[ilosc_smerfow];
 	for (int i = 0; i < ilosc_smerfow; i++)
-		smerf[i] = new SMERF(rozmiar, rozmiar);
+		smerf[i] = new SMERF(rozmiar, rozmiargfgf);
 	
 	GARGAMEL Gargamel(rozmiar, rozmiar, zasieg);
 	GARGAMEL Klakier(rozmiar, rozmiar, zasieg);
