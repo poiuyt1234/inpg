@@ -9,7 +9,7 @@ void MATKA::init()
 	corY = rand()%limitY;
 	return;
 }
-
+aaa
 void MATKA::move()
 {
 	if (!alive)
