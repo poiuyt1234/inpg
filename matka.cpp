@@ -26,7 +26,7 @@ void MATKA::move()
 		corX = limitX-1;
 	if (corY < 0)
 		corY = 0;
-	if (corY >= limitY)
+	if (corY >= limitY)rt
 		corY = limitY-1;
 	
 	return;
