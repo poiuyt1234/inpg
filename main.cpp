@@ -10,7 +10,7 @@ using namespace std;
 #define rozmiar 100
 #define zasieg 15
 #define ilosc_iteracji 100
-
+gggg
 int main()
 {
 	SMERF* smerf[ilosc_smerfow];
